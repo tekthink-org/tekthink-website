@@ -54,6 +54,7 @@
     .nav-right a { font-size:13px; font-weight:500; color:var(--text-2); text-decoration:none; }
     .nav-cta-btn { font-size:13px; font-weight:600; padding:9px 20px; background:var(--charcoal); color:var(--white)!important; border-radius:8px; text-decoration:none; transition:background 0.2s,transform 0.18s; }
     .nav-cta-btn:hover { background:var(--orange)!important; transform:translateY(-1px); }
+    .nav-phone { font-size:13px; font-weight:500; color:var(--text-2); text-decoration:none; pointer-events:none; cursor:default; }
     .nav-hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; background:none; border:none; padding:4px; }
     .nav-hamburger span { display:block; width:22px; height:2px; background:var(--text-1); border-radius:2px; }
     .mobile-menu { display:none; position:fixed; top:70px; left:0; right:0; z-index:199; background:var(--off-white); border-bottom:1px solid var(--border); padding:1.5rem 5vw 2rem; flex-direction:column; gap:1.25rem; }
@@ -285,7 +286,6 @@
     <a href="#emerging">Emerging</a>
   </div>
   <div class="nav-right">
-    <span style="font-size:13px;font-weight:500;color:var(--text-2);">+91 98875 29887</span>
     <a href="contact.html" class="nav-cta-btn">Book a Briefing →</a>
   </div>
   <button class="nav-hamburger" onclick="toggleMenu()" aria-label="Menu"><span></span><span></span><span></span></button>
@@ -295,7 +295,7 @@
   <a href="#identity" onclick="closeMenu()">About</a>
   <a href="#method" onclick="closeMenu()">How We Build</a>
   <a href="#emerging" onclick="closeMenu()">Emerging Platforms</a>
-  <span style="font-size:13px;font-weight:500;color:var(--text-2);">+91 98875 29887</span>
+  <a href="tel:+919887529887" style="color:var(--orange);font-weight:600;">📞 +91 98875 29887</a>
   <a href="contact.html" class="nav-cta-btn" style="text-align:center;">Book a Briefing →</a>
 </div>
 
