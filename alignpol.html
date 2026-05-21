@@ -29,7 +29,8 @@
     /* NAV */
     nav { position: fixed; top: 0; left: 0; right: 0; z-index: 200; height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 5vw; background: rgba(13,27,42,0.95); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(255,255,255,0.08); }
     nav.scrolled { box-shadow: 0 2px 24px rgba(0,0,0,0.3); }
-    .nav-logo img { height: 34px; width: auto; filter: brightness(0) invert(1); }
+    .nav-logo { background:#FFFFFF; border-radius:8px; padding:5px 12px; display:inline-flex; align-items:center; }
+    .nav-logo img { height:34px; width:auto; display:block; filter:none; }
     .nav-links { display: flex; align-items: center; gap: 1.75rem; }
     .nav-links a { font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.55); text-decoration: none; transition: color 0.2s; }
     .nav-links a:hover { color: var(--white); }
